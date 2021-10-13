@@ -8,6 +8,9 @@
 body{
     border: 3px solid red;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 header{
     /*border: 3px solid blue;*/
@@ -24,8 +27,9 @@ h1{
     /*border: 3px solid yellowgreen;*/
     margin: auto 0;
     flex:2;
-    
-
+    font-family: 'Birthstone', cursive;
+    font-size: 40px;
+    color: purple;
 }
 #nav-bar{
     /*border: 3px solid yellowgreen;*/
@@ -38,4 +42,26 @@ h1{
 .nav-link{ 
     margin-right: 10px; 
     text-decoration: none;  
+}
+form{
+    /*border: 3px solid greenyellow;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color:#A0E7E5;
+}
+form>label{
+    font-weight: bold;
+    font-style: oblique;
+}
+#email{
+    margin: 3px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px dashed #FBE7C6;
+}
+#submit{
+    margin-top: 8px;
 }
