@@ -17,7 +17,7 @@ header{
     /*border: 3px solid blue;*/
     display: flex;
     background-color: #FFAEBC;
-    position: fixed;
+    position: relative;
     top:0;
     width: 100%;
 }
@@ -34,6 +34,7 @@ h1{
     font-family: 'Birthstone', cursive;
     font-size: 40px;
     color: purple;
+    position: relative;
 }
 #nav-bar{
     /*border: 3px solid yellowgreen;*/
