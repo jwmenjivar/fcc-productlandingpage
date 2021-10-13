@@ -54,6 +54,7 @@ form{
 form>label{
     font-weight: bold;
     font-style: oblique;
+    font-size: 35px;
     color: rgb(31, 24, 24);
 }
 #email{
